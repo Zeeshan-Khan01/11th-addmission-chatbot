@@ -1,0 +1,42 @@
+/* Input box styles */
+
+
+.input-box {
+  display: flex;
+  align-items: center;
+  padding: 18px 24px;
+  border-top: 1px solid #e5e7eb;
+  background: #f7f8fa;
+}
+.input-box input {
+  flex: 1;
+  padding: 14px 18px;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 1.08rem;
+  margin-right: 12px;
+  outline: none;
+  background: #fff;
+  color: #222;
+  transition: border 0.2s;
+}
+.input-box input:focus {
+  border: 1.5px solid #2563eb;
+}
+.send-btn {
+  background: #2563eb;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 22px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background 0.2s;
+  border: none;
+}
+.send-btn:disabled {
+  background: #a5b4fc;
+  cursor: not-allowed;
+}
+.send-btn:not(:disabled):hover {
+  background: #1d4ed8;
+}

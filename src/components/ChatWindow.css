@@ -1,0 +1,16 @@
+/* Chat window styles */
+  .chat-window {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 32px 0 16px 0;
+    overflow-y: auto;
+    background: transparent;
+    min-height: 0;
+    height: 100%;
+  }
+@media (max-width: 600px) {
+  .chat-window {
+    padding: 12px 6px 8px 6px;
+  }
+}
